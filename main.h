@@ -1,5 +1,5 @@
-#ifndef main_m
-#define main_m
+#ifndef MAIN_H
+#define MAIN_H
 
 #include <limits.h>
 #include <stdarg.h>
@@ -113,4 +113,4 @@ unsigned int convert_sbase(buffer_t *output, long int num, char *base,
 unsigned int convert_ubase(buffer_t *output, unsigned long int num, char *base,
 		unsigned char flags, int wid, int prec);
 
-#endif /* main_m */
+#endif /* MAIN_H */
